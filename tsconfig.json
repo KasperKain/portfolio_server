@@ -6,7 +6,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "lib": ["es2016", "esnext", "dom"],
-    "outDir": "build",
+    "outDir": "dist",
     "strict": true,
     "strictNullChecks": true,
     "esModuleInterop": true,
