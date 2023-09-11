@@ -1,17 +1,13 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "lib": ["es2016", "esnext", "dom"],
-    "outDir": "dist",
+    "moduleResolution": "Node",
     "strict": true,
-    "strictNullChecks": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "declaration": true
+    "outDir": "./dist",
+    "module": "ES6"
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules"]
