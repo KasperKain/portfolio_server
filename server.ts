@@ -36,7 +36,7 @@ export const verifyToken = (
 };
 
 // App Configurations
-app.use(express.json({ limit: "5mb" }));
+app.use(express.json({ limit: "10mb" }));
 app.use(cors());
 app.get("/", (req, res) => res.send("base"));
 app.use("/games", gamesRoutes);
